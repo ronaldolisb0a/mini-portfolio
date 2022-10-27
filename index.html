@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/css/reset.css">
+    <link rel="stylesheet" href="./src/css/estilos.css">
+    <link rel="stylesheet" href="./src/css/rolagem.css">
+
+    <title>Mini Portfólio</title>
+  </head>
+  <body>
+    <main class="cartao">
+      <div class="minhas-informacoes">
+        <img src="./src/imagens/IMG-20220811-WA0030.jpg" alt="foto de perfil" />
+        <h1 class="nome">Ronaldo Lisboa</h1>
+        <h2 class="cargo">Desenvolvedor Front-End</h2>
+      </div>
+
+      <div class="conteudo">
+        <ul class="abas">
+          <li class="aba selecionado" id="sobre-mim">
+            <img src="./src/imagens/sobre.gif" alt="ícone de sobre mim" />
+          </li>
+          <li class="aba" id="momentos">
+            <img src="./src/imagens/giphy.gif" alt="ícone de redes sociais" />
+          </li>
+        </ul>
+
+        <div class="informacoes-abas">
+          <div class="informacao selecionado" id="informacao-sobre-mim">
+            <h3 class="sub-titulo">Olá mundo!! Seja bem-vindo(a)!</h3>
+
+            <div class="descricao">
+              
+              <p> 
+                Sempre fui uma pessoa muito curiosa, gostava de desmontar as coisas para saber
+                como funcionavam, hoje, eu mesmo consigo construir as coisas... 
+                Só que desta vez construir com a programação, Desde novembro de 2021 eu comecei a me interessar na area de programação,
+                desde então, tenho estudado para conseguir meu lugar nesta area que desejo tanto,pretendo
+                ser um <span>programador Front-End</span>.
+                
+              </p>
+            </div>
+          </div>
+
+          <div class="informacao" id="informacao-momentos">
+            <h3 class="sub-titulo">Minhas Redes</h3>
+
+            <ul class="minhas-redes">
+                
+                <li>
+                    <a href="https://www.linkedin.com/in/ronaldo-lisboa-40a878234" target="_blank" class="linkedin">LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://github.com/prronaldolisboa" target="_blank" class="github">GitHub</a>
+                </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </main>
+
+    <script src="./src/js/index.js"></script>
+  </body>
+</html>
